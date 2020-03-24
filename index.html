@@ -2,17 +2,18 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="main.css">
-        <title>e to the nth digit</title>
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+        <title>Calculate the value of e </title>
     </head>
     <body>
-        <H1><i>e</i> to the nth digit</H1>
+        <H1>Calculate <i>e</i>'s value</H1>
         <br>
         <form onsubmit="return false">
-            <label for = "introText" >Work out <i>e</i> to the decimal place you choose: </label>
+            <label for = "introText" >Work out <i>e</i> from the number you choose: </label>
             <input id = "Data" type = "number" required placeholder="Please input a number">
             <div id = "buttonContainer">
                 <button id = "button" type = "submit" onclick="e()"> Calculate </button>
-                <input id = "button" type = "reset" onclick="reset1()">
+                <button id = "button" type = "reset" onclick="reset1()"> Reset </button>
             </div>
         </form>
 

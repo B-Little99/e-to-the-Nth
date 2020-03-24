@@ -1,0 +1,47 @@
+body {
+    width: 75%;
+    background-color: #EDEDED;
+    text-align: center;
+    margin: 40px auto;
+    font-family:'Nunito', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    background: -webkit-linear-gradient(32deg, rgba(16,55,246,1) 35%, rgba(233,14,14,1) 54%, rgba(233,14,154,1) 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: auto;
+}
+
+p, form {
+    font-size: 25px;
+    margin: 20px, auto;
+    color: black;
+}
+
+#buttonContainer {
+    text-align: center;
+    width: 100%;
+    margin: 20px, auto;
+}
+
+#button {
+    border-color: black;
+    color: black;    
+    border-radius: 4px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 12px 10px 12px;
+    width: 150px;
+}
+
+#Data {
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    margin: 15px;
+}

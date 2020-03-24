@@ -1,0 +1,1 @@
+This programme allows a user to calculate the value of e using the number they input.
